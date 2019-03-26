@@ -1,9 +1,6 @@
 package com.flavio.android.androidroomkotlinmercadinho.dao
 
-import androidx.room.Dao
-import androidx.room.Delete
-import androidx.room.Insert
-import androidx.room.Query
+import androidx.room.*
 import com.flavio.android.androidroomkotlinmercadinho.model.Produto
 
 @Dao
@@ -19,4 +16,7 @@ interface ProdutoDao {
 
     @Delete
     fun deletaProduto(produto : Produto)
+
+    @Update
+    fun atualizaProduto(produto: Produto)
 }
