@@ -11,10 +11,10 @@ interface CompraDao {
     @Insert
     fun salvaCompra(compra : Compra)
 
-    @Query("SELECT * FROM compra where id = :idBusca")
+    @Query("SELECT * FROM Compra where id = :idBusca")
     fun consultaCompra(idBusca : Int): Compra
 
-    @Query("SELECT * FROM compra")
+    @Query("SELECT * FROM Compra")
     fun consultaTodasCompras(): List<Compra>
 
     @Delete
