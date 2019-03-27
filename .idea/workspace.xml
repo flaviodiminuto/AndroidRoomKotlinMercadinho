@@ -11,8 +11,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4317506c-e172-448e-b701-a8ed47e79f60" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/flavio/android/androidroomkotlinmercadinho/converters/ConversorCalendar.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/flavio/android/androidroomkotlinmercadinho/database/DatabaseMercadinho.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.1/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.1/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
@@ -25,9 +23,8 @@
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/flavio/android/androidroomkotlinmercadinho/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/flavio/android/androidroomkotlinmercadinho/MainActivity.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/flavio/android/androidroomkotlinmercadinho/dao/CompraDao.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/flavio/android/androidroomkotlinmercadinho/dao/CompraDao.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/flavio/android/androidroomkotlinmercadinho/database/databaseMercadinho.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/flavio/android/androidroomkotlinmercadinho/model/Compra.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/flavio/android/androidroomkotlinmercadinho/model/Compra.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/flavio/android/androidroomkotlinmercadinho/dao/CompraProdutoDao.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/flavio/android/androidroomkotlinmercadinho/dao/CompraProdutoDao.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/flavio/android/androidroomkotlinmercadinho/model/CompraProduto.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/flavio/android/androidroomkotlinmercadinho/model/CompraProduto.kt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -51,7 +48,7 @@
     <session id="-1623606349">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="3" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.37" value="1" />
           <entry key="project.open.time.59" value="1" />
@@ -62,7 +59,7 @@
         <counts>
           <entry key="gradle" value="1" />
           <entry key="java" value="10" />
-          <entry key="kt" value="46" />
+          <entry key="kt" value="47" />
           <entry key="xml" value="2" />
         </counts>
       </usages-collector>
@@ -70,14 +67,14 @@
         <counts>
           <entry key="Groovy" value="1" />
           <entry key="JAVA" value="10" />
-          <entry key="Kotlin" value="46" />
+          <entry key="Kotlin" value="47" />
           <entry key="XML" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="gradle" value="4" />
-          <entry key="kt" value="6748" />
+          <entry key="kt" value="6916" />
           <entry key="txt" value="24" />
           <entry key="xml" value="9" />
         </counts>
@@ -86,7 +83,7 @@
         <counts>
           <entry key="Android Room SQL" value="1" />
           <entry key="Groovy" value="4" />
-          <entry key="Kotlin" value="6747" />
+          <entry key="Kotlin" value="6915" />
           <entry key="PLAIN_TEXT" value="24" />
           <entry key="XML" value="9" />
         </counts>
@@ -119,40 +116,28 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/flavio/android/androidroomkotlinmercadinho/dao/CompraProdutoDao.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="15" column="30" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
+            <state relative-caret-position="88">
+              <caret line="13" column="56" selection-start-line="13" selection-start-column="56" selection-end-line="13" selection-end-column="56" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/flavio/android/androidroomkotlinmercadinho/MainActivity.kt">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/flavio/android/androidroomkotlinmercadinho/model/CompraProduto.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="183">
-              <caret line="16" column="80" selection-start-line="16" selection-start-column="80" selection-end-line="16" selection-end-column="80" />
-              <folding>
-                <element signature="e#56#425#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="660">
+              <caret line="30" column="11" selection-start-line="30" selection-start-column="11" selection-end-line="30" selection-end-column="11" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/flavio/android/androidroomkotlinmercadinho/database/DatabaseMercadinho.kt">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/flavio/android/androidroomkotlinmercadinho/MainActivity.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="62" column="16" selection-start-line="62" selection-start-column="16" selection-end-line="62" selection-end-column="41" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/flavio/android/androidroomkotlinmercadinho/converters/ConversorCalendar.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
+            <state relative-caret-position="550">
+              <caret line="25" column="23" selection-start-line="25" selection-start-column="23" selection-end-line="25" selection-end-column="23" />
               <folding>
-                <element signature="e#71#131#0" expanded="true" />
+                <element signature="e#56#425#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -2661,17 +2646,17 @@
         <option value="$PROJECT_DIR$/app/src/main/java/com/flavio/android/androidroomkotlinmercadinho/Convert/Converters.kt" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/flavio/android/androidroomkotlinmercadinho/dao/CompraProdutos.kt" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/flavio/android/androidroomkotlinmercadinho/model/compraProduto.kt" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/flavio/android/androidroomkotlinmercadinho/model/CompraProduto.kt" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/flavio/android/androidroomkotlinmercadinho/dao/ProdutoDao.kt" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/flavio/android/androidroomkotlinmercadinho/model/Produto.kt" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/flavio/android/androidroomkotlinmercadinho/database/databaseMercadinho.kt" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/flavio/android/androidroomkotlinmercadinho/dao/CompraDao.kt" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/flavio/android/androidroomkotlinmercadinho/dao/CompraProdutoDao.kt" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/flavio/android/androidroomkotlinmercadinho/model/Compra.kt" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/flavio/android/androidroomkotlinmercadinho/MainActivity.kt" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/flavio/android/androidroomkotlinmercadinho/dao/converters/ConversorCalendar.kt" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/flavio/android/androidroomkotlinmercadinho/database/DatabaseMercadinho.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/flavio/android/androidroomkotlinmercadinho/dao/CompraProdutoDao.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/flavio/android/androidroomkotlinmercadinho/model/CompraProduto.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/flavio/android/androidroomkotlinmercadinho/MainActivity.kt" />
       </list>
     </option>
   </component>
@@ -2904,7 +2889,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Captures" order="0" side_tool="true" weight="0.25" />
       <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.1818792" />
@@ -2915,7 +2899,7 @@
       <window_info id="Capture Tool" order="6" />
       <window_info id="Favorites" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Run" order="0" />
-      <window_info anchor="bottom" id="Logcat" order="1" weight="0.4964539" />
+      <window_info anchor="bottom" id="Logcat" order="1" visible="true" weight="0.05106383" />
       <window_info anchor="bottom" id="TODO" order="2" />
       <window_info anchor="bottom" id="Android Profiler" order="3" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.32907802" />
@@ -2924,8 +2908,8 @@
       <window_info anchor="bottom" id="Flutter Performance" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32907802" />
       <window_info anchor="bottom" id="Build" order="9" weight="0.364539" />
-      <window_info active="true" anchor="bottom" id="Find" order="10" visible="true" weight="0.32907802" />
-      <window_info anchor="right" id="Device File Explorer" order="0" side_tool="true" weight="0.3295302" />
+      <window_info anchor="bottom" id="Find" order="10" weight="0.32907802" />
+      <window_info active="true" anchor="right" id="Device File Explorer" order="0" side_tool="true" visible="true" weight="0.3295302" />
       <window_info anchor="right" id="Capture Analysis" order="1" />
       <window_info anchor="right" id="Gradle" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
@@ -2946,12 +2930,6 @@
           <line>12</line>
           <properties myFieldName="id" myClassName="com.flavio.android.androidroomkotlinmercadinho.model.Compra" />
           <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/flavio/android/androidroomkotlinmercadinho/MainActivity.kt</url>
-          <line>18</line>
-          <properties />
-          <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -2977,13 +2955,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
           <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/flavio/android/androidroomkotlinmercadinho/model/CompraProduto.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="616">
-          <caret line="28" column="17" selection-start-line="28" selection-start-column="17" selection-end-line="28" selection-end-column="17" />
         </state>
       </provider>
     </entry>
@@ -3033,20 +3004,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/flavio/android/androidroomkotlinmercadinho/dao/CompraProdutoDao.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="15" column="30" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/flavio/android/androidroomkotlinmercadinho/dao/CompraDao.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="10" column="11" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/flavio/android/androidroomkotlinmercadinho/converters/ConversorCalendar.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
@@ -3054,6 +3011,34 @@
           <folding>
             <element signature="e#71#131#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/flavio/android/androidroomkotlinmercadinho/database/DatabaseMercadinho.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="103">
+          <caret line="62" column="16" selection-start-line="62" selection-start-column="16" selection-end-line="62" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/flavio/android/androidroomkotlinmercadinho/dao/CompraProdutoDao.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="13" column="56" selection-start-line="13" selection-start-column="56" selection-end-line="13" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/flavio/android/androidroomkotlinmercadinho/model/CompraProduto.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="30" column="11" selection-start-line="30" selection-start-column="11" selection-end-line="30" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/flavio/android/androidroomkotlinmercadinho/dao/CompraDao.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="10" column="11" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
         </state>
       </provider>
     </entry>
@@ -3069,18 +3054,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/flavio/android/androidroomkotlinmercadinho/MainActivity.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
-          <caret line="16" column="80" selection-start-line="16" selection-start-column="80" selection-end-line="16" selection-end-column="80" />
+        <state relative-caret-position="550">
+          <caret line="25" column="23" selection-start-line="25" selection-start-column="23" selection-end-line="25" selection-end-column="23" />
           <folding>
             <element signature="e#56#425#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/flavio/android/androidroomkotlinmercadinho/database/DatabaseMercadinho.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="62" column="16" selection-start-line="62" selection-start-column="16" selection-end-line="62" selection-end-column="41" />
         </state>
       </provider>
     </entry>

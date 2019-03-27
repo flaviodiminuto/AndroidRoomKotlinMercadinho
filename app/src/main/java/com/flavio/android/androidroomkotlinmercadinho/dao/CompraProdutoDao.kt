@@ -11,7 +11,7 @@ interface CompraProdutoDao {
 
 
     @Insert
-    fun salvarCompraProduto(compra : Compra, produto : Produto)
+    fun salvarCompraProduto(compraProduto: CompraProduto)
 
     @Query("SELECT pc.* FROM compraproduto pc INNER JOIN produto p on pc.produto_id= p.id  where pc.compra_id = :idBusca")
     fun consultaCompraProduto(idBusca  : Int): List<CompraProduto>

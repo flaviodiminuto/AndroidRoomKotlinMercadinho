@@ -4,9 +4,11 @@ import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import com.flavio.android.androidroomkotlinmercadinho.database.DatabaseMercadinho
 import com.flavio.android.androidroomkotlinmercadinho.model.Compra
+import com.flavio.android.androidroomkotlinmercadinho.model.CompraProduto
 import com.flavio.android.androidroomkotlinmercadinho.model.Produto
 import kotlinx.android.synthetic.main.activity_main.*
 import java.util.Calendar
+//Para testar descomente as linhas 19, 23  e 41
 
 class MainActivity : AppCompatActivity() {
 
@@ -21,6 +23,8 @@ class MainActivity : AppCompatActivity() {
         var t = ""
         var produtos = getDB().getProdutoDao().consultaTodasProdutos()
         for (produto in produtos){
+          //Descomentar na primeira execução
+         //   getDB().getCompraProdutoDao().salvarCompraProduto(CompraProduto(0,compra.id,produto.id))
             t += "\nId: ${produto.id} \tNome: ${produto.nome} \tPreço: R$${produto.valor} \t${produto.categoria}"
             compra.valor += produto.valor
         }
@@ -28,6 +32,7 @@ class MainActivity : AppCompatActivity() {
                 "Valor: ${compra.valor}\n" +
                 "Data e hora: ${compra.dataFormatada()}"
         text.text = t
+
 
     }
 

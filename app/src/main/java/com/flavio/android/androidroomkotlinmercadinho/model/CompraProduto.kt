@@ -27,4 +27,13 @@ class CompraProduto {
     @ColumnInfo(name = "produto_id")var produtoId : Int = 0
 
     constructor()
+
+    @Ignore
+    constructor(id: Int, compraId: Int, produtoId: Int) {
+        this.id = id
+        this.compraId = compraId
+        this.produtoId = produtoId
+    }
+
+
 }
